@@ -1,0 +1,134 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    background: #E5E5E5;
+}
+
+.container {
+    
+      margin: 0;
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+
+img {
+    width: 100px;
+}
+
+.hero-section {
+    width: 720px;
+    min-height: 343px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    background-image: url(ramstein.jpg);
+    background-repeat: no-repeat;
+    background-position: 80% 50%;
+
+}
+
+.main-header {
+    font-size: 32px;
+    background: #1D3557;
+    padding: 3px 12px 5px 12px;
+    border-radius: 10px;
+    margin-top: 122px;
+    margin-bottom: 11px;
+
+    
+}
+
+.subheader {
+    font-size: 19px;
+    background: #457B9D;
+    padding: 5px 29px 8px 29px;
+    border-radius: 10px;
+    margin-top: 11px;
+    margin-bottom: 119px;
+    width: 412px;
+}
+
+
+.activities {
+    background-color: #F1FAEE;
+    max-width: 720px;
+    min-height: 343px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content:  space-around;
+}
+
+.act-img {
+    width: 100px;
+}
+
+.activi-columns {
+    border: 20px #1D3557;
+    width: 200px;
+    margin-top: 80px;
+}
+
+#descr-1 #descr-2 {
+    width: 1px;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 22px;
+    color: #1D3557;
+}
+
+p {
+    color: #1D3557;
+}
+
+#guide-header {
+    color: #1D3557;
+}
+
+.guide-section {
+    display: flex;
+    background: #A8DADC;
+    width: 400px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px #1D3557
+}
+
+#guide-descr {
+    display: flex;
+    flex-direction: column;
+    max-width: 190px;
+    margin-right: 11px;
+    margin-left: 7px;
+}
+
+#guide-img {
+    width: 180px;
+    margin-left: 13px;
+    margin-top: 23px;
+    margin: 23px auto 23px 13px;
+} 
+
+.guide-ctn {
+    background: white;
+    width: 720px;
+    align-self: center;
+}
